@@ -28,17 +28,17 @@ Each environment uses a different Helm values file.
 # 🏗 Repository Structure
 
 helm-gitops-demo/
- ├── charts/
- │    └── myapp/
- │         ├── Chart.yaml
- │         ├── values.yaml
- │         ├── values-dev.yaml
- │         ├── values-prod.yaml
- │         └── templates/
- │              ├── deployment.yaml
- │              └── service.yaml
- ├── screenshots/
- └── README.md
+├── charts/
+│   └── myapp/
+│       ├── Chart.yaml
+│       ├── values.yaml
+│       ├── values-dev.yaml
+│       ├── values-prod.yaml
+│       └── templates/
+│           ├── deployment.yaml
+│           └── service.yaml
+├── screenshots/
+└── README.md
 
 ---
 
