@@ -24,9 +24,9 @@ Two environments are deployed using branch-based separation:
 Each environment uses a different Helm values file.
 
 ---
+## 🏗 Repository Structure
 
-# 🏗 Repository Structure
-
+```text
 helm-gitops-demo/
 ├── charts/
 │   └── myapp/
@@ -39,6 +39,7 @@ helm-gitops-demo/
 │           └── service.yaml
 ├── screenshots/
 └── README.md
+```
 
 ---
 
